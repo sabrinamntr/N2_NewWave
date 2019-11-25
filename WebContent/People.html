@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New Wave Party</title>
+    
+    <style>
+        body {
+            background-image: url("https://i.redd.it/vzmpv432havx.jpg");
+            background-size: contain;
+        }
+        
+        h1{
+            color: #fff;
+            text-shadow: 0px 0px 30px #66ffff;  
+            font-family: sans-serif;
+            font-size: 90px;
+            text-align: center;
+            letter-spacing: 15px;
+        }
+        
+        h2{
+            color: #66ffff;  
+            font-family: sans-serif;
+            font-size: 22px;
+            letter-spacing: 10px;
+            border-bottom: 2px solid #66ffff;
+            text-shadow: 0px 0px 3px #fff;  
+        }
+        header {
+            height: 100px;
+        }
+        
+        footer{
+            background-color: #5C2686;
+            color: aliceblue;
+            font-family: monospace;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+        } 
+        
+        sidebar {
+            background-color: #0d0d0d;
+            width: 700px;
+            float: left;
+            display: block;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 100px;
+        }
+        
+        menulinks {
+            font-size: 15px; /* Tamanho da fonte */
+            font-family: sans-serif;
+            background-color:#FE1CAC; /*** cor do fundo ***/
+            float:left;
+            height: 25px;
+            width: 220px;
+            padding: 3px;
+            color:#fff; /*** cor da fonte ***/
+            text-align: center;
+            margin-left: 4px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            transition-duration: .30s; 
+        }
+        
+        menulinks:hover{
+            color: #000; /*** cor da fonte ***/
+            letter-spacing: 6px;
+            transition-duration: .50s; 
+            background-color:#ffff4d;
+
+        }
+        
+        form {
+            background-color: #66ffff;
+            width: 95%;
+            box-shadow: 1px 1px 7px #fff;
+            float: left;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 1px;
+            margin-bottom: 20px;
+        }
+        
+        h3{
+            color: whitesmoke;
+            font-family: sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            letter-spacing: 5px;
+            word-spacing: 2px;
+            text-align: center;
+            line-height: 210%;
+        }
+        
+        h4{
+            color: #000;  
+            font-family: sans-serif;
+            font-size: 22px;
+            letter-spacing: 10px;
+            border-bottom: 2px solid #66ffff;
+            text-shadow: 0px 0px 3px #fff;  
+        }
+        
+        p{
+            font-family: sans-serif;
+            letter-spacing: 5px;
+        }
+        
+        main{
+            background-color: #5900b3;
+            width: 30%;
+            float: left;
+            padding: 30px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        
+        img {
+            box-shadow: 1px 1px 9px #fff;
+        }
+        
+        h5 {
+            color: #ffff4d;
+            font-family: sans-serif;
+            font-size: 25px;
+            float: center;
+            text-align: left;
+        }
+    
+    </style>
+</head>
+
+<body>
+ <header>
+    <h1><i>~ NEW WAVE PARTY ~</i></h1>
+</header>   
+           
+    <sidebar>
+ <a href="People.html"><menulinks>HOME</menulinks></a><a href="Sobre.html"><menulinks>SOBRE</menulinks></a><a href="Midia.html"><menulinks>MÍDIA</menulinks></a>
+    <h2>LINE UP</h2>
+        <h3><big><big><big><big><big><big>Billy Idol • Cindy Lauper • The Smiths • Joy Division </big></big>• The Cure • a-ha • Tears for Fears • The Police • Simple Minds • Blondie </big>• Depache Mode • The B-52's • New Order • Talking Heads • Duran Duran • </big>Television • Petshop Boys • The Human League • Gary Numan • </big>Soft Cell • Alphaville • The Cars • The Psychedelic Furs • She Wants Revange • The Jam • Roxy Music • Hurts</big></h3>
+    
+        
+    <h2>ENTRE NO CLIMA</h2>
+        <iframe src="https://open.spotify.com/embed/playlist/0tNrmoF78CL0TS31uEx4vH" width="700" height="240" frameborder="0" allowtransparency="true" allow="encrypted-media" align="center"></iframe>
+    </sidebar>
+    <main>
+
+      <img src="https://thumbs.gfycat.com/LiquidAnimatedBuckeyebutterfly-size_restricted.gif" width="420" height="250">  
+        
+<form method="post" action="/FTTWEBPEOPLE/people">
+<fieldset>
+    <legend><h4>COLOQUE SEU NOME NA LISTA</h4></legend>
+		<p>    
+			<label for="pname">NOME: <input id="pname" name="pname" type="text" required></label>
+		</p>
+		<p>
+			<label for="email">E-MAIL: <input id="email" name="email" type="email" required></label>
+		</p>
+        <p>    
+			<label for="pid">TELEFONE: <input id="pid" name="pid" type="number" disabled></label>
+		</p>
+		<p>
+			<label for="dob">DATA DE NASCIMENTO: <input id="dob" name="dob" type="date" required></label>
+		</p>
+		<label>DIAS:
+        	<div>
+        		<input type="checkbox" id="period" name="periodM"
+                       value="morning" checked />
+        		<label for="morning">DIA 1</label>
+    		</div>
+    		<div>
+        		<input type="checkbox" id="period" name="periodA"
+               	       value="afternoon" />
+        		<label for="afternoon">DIA 2</label>
+    		</div>
+    		</label>
+		<p>
+			<input name="Reset" type="reset" required>
+			<input name="Submit" type="submit" required>	
+		</p>
+
+</fieldset>
+</form>
+
+    </main>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New Wave Party</title>
+    
+    <style>
+        body {
+            background-image: url("https://i.redd.it/vzmpv432havx.jpg");
+            background-size: cover;
+        }
+        
+        h1{
+            color: #fff;
+            text-shadow: 0px 0px 30px #66ffff;  
+            font-family: sans-serif;
+            font-size: 90px;
+            text-align: center;
+            letter-spacing: 15px;
+        }
+        
+        h2{
+            color: #66ffff;  
+            font-family: sans-serif;
+            font-size: 22px;
+            letter-spacing: 10px;
+            border-bottom: 2px solid #66ffff;
+            text-shadow: 0px 0px 3px #fff;  
+        }
+        header {
+            height: 100px;
+        }
+        
+        footer{
+            background-color: #5C2686;
+            color: aliceblue;
+            font-family: monospace;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+        } 
+        
+        sidebar {
+            background-color: #0d0d0d;
+            width: 700px;
+            float: left;
+            display: block;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 100px;
+        }
+        
+        menulinks {
+            font-size: 15px; /* Tamanho da fonte */
+            font-family: sans-serif;
+            background-color:#FE1CAC; /*** cor do fundo ***/
+            float:left;
+            height: 25px;
+            width: 220px;
+            padding: 3px;
+            color:#fff; /*** cor da fonte ***/
+            text-align: center;
+            margin-left: 4px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            transition-duration: .30s; 
+        }
+        
+        menulinks:hover{
+            color: #000; /*** cor da fonte ***/
+            letter-spacing: 6px;
+            transition-duration: .50s; 
+            background-color:#ffff4d;
+
+        }
+        
+        form {
+            background-color: #66ffff;
+            width: 95%;
+            box-shadow: 1px 1px 7px #fff;
+            float: left;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 1px;
+            margin-bottom: 20px;
+        }
+        
+        h3{
+            color: whitesmoke;
+            font-family: sans-serif;
+            font-size: 16px;
+            padding: 10px;
+            letter-spacing: 3px;
+            word-spacing: 2px;
+            text-align: center;
+            line-height: 210%;
+        }
+        
+        h4{
+            color: #000;  
+            font-family: sans-serif;
+            font-size: 22px;
+            letter-spacing: 10px;
+            border-bottom: 2px solid #66ffff;
+            text-shadow: 0px 0px 3px #fff;  
+        }
+        
+        p{
+            font-family: sans-serif;
+            letter-spacing: 5px;
+        }
+        
+        main{
+            background-color: #5900b3;
+            width: 30%;
+            float: left;
+            padding: 30px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        
+        img {
+            box-shadow: 1px 1px 9px #fff;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+ <header>
+    <h1><i>~ NEW WAVE PARTY ~</i></h1>
+</header>   
+           
+    <sidebar>
+ <a href="People.html"><menulinks>HOME</menulinks></a><a href="Sobre.html"><menulinks>SOBRE</menulinks></a><a href="Midia.html"><menulinks>MÍDIA</menulinks></a>    
+        <h2>SOBRE A FESTA</h2>
+        <h3>A New Wave Party é a maior festa de São Paulo com o tema. Acontece aproximadamente a cada 3 meses em um lugar supresa na capital paulista. O Foco é trazer a experiência dos anos 80 para a atualizade. Tem a duração de dois dias inteiros, open bar, open food e outras supresas reservadas durante a noite. Coloque seu nome na lista e caso sorteado, saberá mais quais atrações o esperam.</h3>
+    
+        
+    </sidebar>
+     <main>
+
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca25cbfb-6306-497b-bf63-d11dd514f249/dbvr4jk-a27153ff-ba5b-422a-b8ac-b4faf476f1d0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NhMjVjYmZiLTYzMDYtNDk3Yi1iZjYzLWQxMWRkNTE0ZjI0OVwvZGJ2cjRqay1hMjcxNTNmZi1iYTViLTQyMmEtYjhhYy1iNGZhZjQ3NmYxZDAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1Qmetkl5Zwy27lUFQVqW_KZhpj8xiFAWsK56yHTkixM" width="420" height="250">  
+        
+<form method="post" action="/FTTWEBPEOPLE/people">
+<fieldset>
+    <legend><h4>COLOQUE SEU NOME NA LISTA</h4></legend>
+		<p>    
+			<label for="pname">NOME: <input id="pname" name="pname" type="text" required></label>
+		</p>
+		<p>
+			<label for="email">E-MAIL: <input id="email" name="email" type="email" required></label>
+		</p>
+        <p>    
+			<label for="pid">TELEFONE: <input id="pid" name="pid" type="number" disabled></label>
+		</p>
+		<p>
+			<label for="dob">DATA DE NASCIMENTO: <input id="dob" name="dob" type="date" required></label>
+		</p>
+		<label>DIAS:
+        	<div>
+        		<input type="checkbox" id="period" name="periodM"
+                       value="morning" checked />
+        		<label for="morning">DIA 1</label>
+    		</div>
+    		<div>
+        		<input type="checkbox" id="period" name="periodA"
+               	       value="afternoon" />
+        		<label for="afternoon">DIA 2</label>
+    		</div>
+    		</label>
+		<p>
+			<input name="Reset" type="reset" required>
+			<input name="Submit" type="submit" required>	
+		</p>
+
+</fieldset>
+</form>
+
+    </main>
+    
+    
+
+</body>
+</html>
