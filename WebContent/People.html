@@ -8,6 +8,8 @@
         body {
             background-image: url("https://i.redd.it/vzmpv432havx.jpg");
             background-size: contain;
+            background-color: darkslateblue;
+
         }
         
         h1{
@@ -130,6 +132,7 @@
             float: center;
             text-align: left;
         }
+
     
     </style>
 </head>
@@ -161,24 +164,9 @@
 		<p>
 			<label for="email">E-MAIL: <input id="email" name="email" type="email" required></label>
 		</p>
-        <p>    
-			<label for="pid">TELEFONE: <input id="pid" name="pid" type="number" disabled></label>
-		</p>
 		<p>
 			<label for="dob">DATA DE NASCIMENTO: <input id="dob" name="dob" type="date" required></label>
 		</p>
-		<label>DIAS:
-        	<div>
-        		<input type="checkbox" id="period" name="periodM"
-                       value="morning" checked />
-        		<label for="morning">DIA 1</label>
-    		</div>
-    		<div>
-        		<input type="checkbox" id="period" name="periodA"
-               	       value="afternoon" />
-        		<label for="afternoon">DIA 2</label>
-    		</div>
-    		</label>
 		<p>
 			<input name="Reset" type="reset" required>
 			<input name="Submit" type="submit" required>	
@@ -188,8 +176,7 @@
 </form>
 
     </main>
-    
-    
+
 
 </body>
 </html>
